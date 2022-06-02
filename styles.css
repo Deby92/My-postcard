@@ -2,15 +2,15 @@
 	border: 1px dashed red;
 	min-height: 10px;
 } */
-body {
-	background: black;
-}
 .postcard {
 	background-color: white;
 	width: 400px;
 	height: 300px;
-	margin: auto;
 }
+body {
+	background-color: black;
+}
+
 .postcard-header {
 	display: flex;
 }
@@ -20,18 +20,25 @@ img {
 }
 h1 {
 	width: 100%;
-	margin: none;
+	border: 1px;
 }
 .postcard-body {
 	display: flex;
 }
 .body-left {
-	width: 50%;
+	padding: 5px;
+}
+.first-paragraph {
+	margin-top: 1px;
 }
 .body-right {
-	width: 50%;
-	border-bottom: grey;
+	border-bottom: grey solid;
 }
-p {
-	font-size: 16px;
+.second-paragraph {
+	margin-top: 5px;
+}
+.postcard-footer {
+	background-color: grey;
+	text-align: center;
+	padding: 5px;
 }
